@@ -1,0 +1,28 @@
+.modal {
+  /* with position absolute, properties like 
+
+  - left
+  - top
+  - bottom
+  - right
+
+  are based on the width and height of the content on the page */
+  position: absolute;
+
+  /* position fixed, properties like
+  
+  - left
+  - top
+  - bottom
+  - right
+
+  are based on the width and height of the screen, what's visible to the user */
+  /* position: fixed; */
+  /* 
+  left:
+  top:
+  */
+  z-index: 10;
+  background-color: white;
+  border: 1px solid black;
+}
