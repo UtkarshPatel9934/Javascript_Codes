@@ -1,0 +1,1 @@
+console.log("Didn't need the polyfill");
