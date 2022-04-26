@@ -1,0 +1,178 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/tabbed.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/photo-viewer.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+</head>
+
+<body>
+
+    <div id="content">
+        <h2>Grand Masters</h2>
+        <ul class="special-accordion">
+            <li>
+                <button class="accordion-control">
+                    Magnus Carlsen
+                </button>
+                <div class="accordion-panel">
+                    Currently the world champion at chess. He's so good, you think he's cheating.
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    Hikaru
+                </button>
+                <div class="accordion-panel">
+                    This is probably winning for him
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    Anish Giri
+                </button>
+                <div class="accordion-panel">
+                    Very young GM
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    Rameshbabu Praggnanandhaa
+                </button>
+                <div class="accordion-panel">
+                    Super super young gm that may have beaten Magnus
+                    <!-- Content goes here -->
+                </div>
+            </li>
+        </ul>
+
+        <button class="accordion-control">
+            Not going to work out here
+        </button>
+        <div class="accordion-panel">
+            this one won't show up
+            <!-- Content goes here -->
+        </div>
+
+
+        <h2>International masters</h2>
+        <ul class="special-accordion">
+            <li>
+                <button class="accordion-control">
+                    Levi Rozman
+                </button>
+                <div class="accordion-panel">
+                    He's more a youtuber than chess master nowadays
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    not Hikaru
+                </button>
+                <div class="accordion-panel">
+                    This is probably winning for him
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    not Anish Giri
+                </button>
+                <div class="accordion-panel">
+                    Very young GM
+                    <!-- Content goes here -->
+                </div>
+                <button class="accordion-control">
+                    definitely not Rameshbabu Praggnanandhaa
+                </button>
+                <div class="accordion-panel">
+                    Super super young gm that may have beaten Magnus
+                    <!-- Content goes here -->
+                </div>
+            </li>
+        </ul>
+
+
+
+        <ul class="tab-list">
+            <li class="active">
+                <a class="tab-control" id="magnusclick" href="#magnus">Magnus Carlson</a>
+            </li>
+            <li>
+                <a class="tab-control" href="#hikaru">Hikaru</a>
+            </li>
+            <li>
+                <a class="tab-control" href="#levi">Levi</a>
+            </li>
+        </ul>
+
+        <div class="tab-panel active" id="magnus">
+            Kind of plays like a computer
+            <!-- Content for the first panel goes here -->
+        </div>
+        <div class="tab-panel" id="hikaru">
+            Can calculate moves far into the future
+            <!-- Content for the second panel goes here -->
+        </div>
+        <div class="tab-panel" id="levi">
+            Great analysis skills
+            <!-- Content for the third panel goes here -->
+        </div>
+
+    </div>
+
+    <!-- the content of the modal and the button to open it -->
+    <div id="share-options">
+        Unfortunately a russian chess player has been suspended from FIDE for 6 months
+    </div>
+    <button id="share">Open the modal</button>
+
+    <!-- <div class="modal">
+        <div class="modal-content">
+            Unfortunately a russian chess player has been suspended from FIDE for 6 months
+            <button class="modal-close">close</button>
+        </div>
+    </div> -->
+
+    
+    <div id="photo-frame" class="default-text"></div>
+    <div id="thumbnails">
+        <a href="img/magnus-large.jpg" class="thumb active" title="Magnus Carlsen">
+            <img src="img/magnus-small.jpg" alt="Magnus Carlsen">
+        </a>
+        <a href="img/prag-large.jpg" class="thumb" title="Rameshbabu Praggnanandhaa">
+            <img src="img/prag-small.jpg" alt="Rameshbabu Praggnanandhaa">
+        </a>
+        <a href="img/hikaru-large.jpg" class="thumb" title="Hikaru Nakamura">
+            <img src="img/hikaru-small.jpg" alt="Hikaru Nakamura">
+        </a>
+    </div>
+
+
+    <div class="slider">
+        <div class="slide-viewer">
+            <div class="slide-group">
+                <div class="slide"><img src="img/magnus-large.jpg" /></div>
+                <div class="slide"><img src="img/prag-large.jpg" /></div>
+                <div class="slide"><img src="img/hikaru-large.jpg" /></div>
+            </div>
+        </div>
+        <div class="slide-buttons"></div>
+    </div>
+    
+    
+    <!-- <script type="text/javascript" src="jquery-3.6.0.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <script type="text/javascript" src="js/tabbed.js"></script>
+    <script type="text/javascript" src="js/modelWithClassObject.js"></script>
+    <script type="text/javascript" src="js/photo-viewer.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

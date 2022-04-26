@@ -1,0 +1,31 @@
+body {
+  padding-bottom: 300px;
+  position: relative;
+}
+.citymap img {
+  width: 400px;
+}
+#prizes {
+}
+#prizes h3 {
+  border: 1px solid #000;
+  padding: 8px;
+  width: 500px;
+  margin: 0 auto;
+}
+#prizes div {
+  border: 1px dashed #000;
+  padding: 8px;
+  width: 500px;
+  margin: 0 auto;
+}
+#share {
+  padding: 8px;
+  background-color: dodgerblue;
+  display: block;
+  width: auto;
+  margin: 20px auto;
+}
+.special-accordion {
+  display: none;
+}

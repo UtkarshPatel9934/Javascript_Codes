@@ -1,0 +1,36 @@
+.slider {
+  width: 800px;
+  margin: 0 auto;
+}
+.slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+}
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+.slide:first-child {
+  display: block;
+}
+.slide-buttons {
+  width: auto;
+  text-align: center;
+}
+.slide-btn {
+  background-color: transparent;
+  margin: 8px;
+  width: 25px;
+  height: 25px;
+}
+.slide-btn.active {
+  color: red;
+}

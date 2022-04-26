@@ -1,0 +1,25 @@
+ul.tab-list {
+  list-style: none;
+}
+ul.tab-list li {
+  display: inline-block;
+  margin-left: 16px;
+  padding: 8px;
+  border: 1px solid blue;
+}
+ul.tab-list li.active {
+  background-color: green;
+}
+ul.tab-list li.active a {
+  color: white;
+}
+.tab-panel {
+  display: none;
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  border: 1px solid red;
+}
+.tab-panel.active {
+  display: block;
+}
